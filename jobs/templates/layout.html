@@ -1,7 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="{{ url_for(css/bulma.min.css) }}" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filemane='css/bulma.min.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filemane='css/app.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    />
+
     <title>Job Board</title>
   </head>
   <body>
